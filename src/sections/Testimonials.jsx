@@ -5,32 +5,32 @@ const testimonials = [
     {
         name: 'Riya',
         review: 'The trainers are extremely supportive and the results have been amazing.',
-      image: p2,
+        image: p2,
     },
     {
         name: 'Amit',
         review: 'Modern equipment, great atmosphere, and excellent coaching.',
-     image: p,
+        image: p,
     },
     {
         name: 'Priya',
         review: 'I lost 12kg in 4 months with their guidance.',
-    image: p2,
+        image: p2,
     },
     {
         name: 'Karan',
         review: 'The personalized workout plans made a huge difference.',
-    image: p,
+        image: p,
     },
     {
         name: 'Neha',
         review: 'Professional trainers and outstanding facilities.',
-    image: p2,
+        image: p2,
     },
     {
         name: 'Siddharth',
         review: "Best fitness experience I've ever had.",
-      image: p2,
+        image: p,
     },
 ]
 
@@ -96,12 +96,12 @@ function Testimonials() {
 
                             <div className="flex items-center gap-4 px-6 pt-6">
                                 <div className="flex h-14 w-14 items-center justify-center overflow-hidden rounded-full border border-white/10 bg-white/5">
-    <img
-        src={t.image}
-        alt={t.name}
-        className="h-full w-full object-cover"
-    />
-</div>
+                                    <img
+                                        src={t.image}
+                                        alt={t.name}
+                                        className="h-full w-full object-cover"
+                                    />
+                                </div>
                                 <div className="min-w-0">
                                     <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#FFD700]">Member</p>
                                     <h3 className="mt-1 truncate text-lg font-bold text-white">{t.name}</h3>
