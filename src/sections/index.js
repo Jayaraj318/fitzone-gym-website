@@ -1,0 +1,8 @@
+export { default as Hero } from './Hero'
+export { default as About } from './About'
+export { default as Programs } from './Programs'
+export { default as Membership } from './Membership'
+export { default as Trainers } from './Trainers'
+export { default as Gallery } from './Gallery'
+export { default as Testimonials } from './Testimonials'
+export { default as Contact } from './Contact'
